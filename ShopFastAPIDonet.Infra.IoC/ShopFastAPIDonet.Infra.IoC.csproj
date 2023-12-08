@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopFastAPIDonet.Application\ShopFastAPIDonet.Application.csproj" />
+    <ProjectReference Include="..\ShopFastAPIDonet.Domain\ShopFastAPIDonet.Domain.csproj" />
+    <ProjectReference Include="..\ShopFastAPIDonet.Infra.Data\ShopFastAPIDonet.Infra.Data.csproj" />
+  </ItemGroup>
+</Project>
